@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: ml-scout
+Version: 0.1.0
+Summary: A GPU profiler and optimizer for ML training workloads
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.0.0
+Requires-Dist: rich>=10.0.0
+Requires-Dist: nvidia-ml-py>=11.0.0
+Requires-Dist: pynvml>=11.0.0
+
+# ML Scout
+
+A command-line tool to analyze and optimize GPU usage for machine learning training workloads.

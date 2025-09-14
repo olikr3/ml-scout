@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml-scout"
+version = "0.1.0"
+description = "A GPU profiler and optimizer for ML training workloads"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "click>=8.0.0",
+    "rich>=10.0.0",
+    "nvidia-ml-py>=11.0.0",
+    "pynvml>=11.0.0"
+]
+
+[project.scripts]
+ml-scout = "gpu_optimus.cli:cli"
+
+[tool.setuptools]
+packages = ["gpu_optimus"]
+
+[tool.setuptools.package-data]
+"gpu_optimus" = ["cost_db.json"]

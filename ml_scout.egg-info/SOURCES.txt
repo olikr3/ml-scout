@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+gpu_optimus/analyzer.py
+gpu_optimus/cli.py
+gpu_optimus/cost_db.json
+gpu_optimus/profiler.py
+ml_scout.egg-info/PKG-INFO
+ml_scout.egg-info/SOURCES.txt
+ml_scout.egg-info/dependency_links.txt
+ml_scout.egg-info/entry_points.txt
+ml_scout.egg-info/requires.txt
+ml_scout.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+ml-scout = gpu_optimus.cli:cli
